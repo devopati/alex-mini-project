@@ -12,7 +12,7 @@ import "aos/dist/aos.css";
 function Product() {
   const { productId } = useParams();
 
-  const moreData = Data.slice(1, 2);
+  const moreData = Data.slice(0, 2);
   console.log({ productId });
 
   useEffect(() => {
