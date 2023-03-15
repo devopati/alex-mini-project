@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, rgb(46, 46, 245), white);
+    padding: 2rem;
+    font-weight: 700;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.navbar{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4.5rem;
+}
+
+@media screen and (max-width:1024px){
+    .navbar{
+        margin-right: 2.5rem;
+    }
+}
