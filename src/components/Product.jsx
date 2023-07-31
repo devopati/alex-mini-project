@@ -11,6 +11,9 @@ import "aos/dist/aos.css";
 
 function Product() {
   const { productId } = useParams();
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
 
   const moreData = Data.slice(0, 2);
   console.log({ productId });

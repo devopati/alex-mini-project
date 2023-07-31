@@ -12,8 +12,8 @@ export const Data = [
   {
     id: "2jg,oilk,mbhlk,",
     imggUrl:
-      "https://www.pngkey.com/png/detail/143-1435072_air-jordan-4-retro-30th-shoe.png",
-    name: "J4 Shoes",
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5pa2UlMjBzaG9lc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    name: "Nikies",
     curr_price: 4599,
     past_price: 6999,
     description:
@@ -21,8 +21,9 @@ export const Data = [
   },
   {
     id: "2dskjhvcbjhnmdcb",
-    imggUrl: "https://egscholars.com/wp-content/uploads/2022/09/images-7.jpeg",
-    name: "J4 Shoes",
+    imggUrl:
+      "https://images.unsplash.com/photo-1612724189298-89d36b10b26d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODV8fG5pa2UlMjBzaG9lc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    name: "Nikies for You",
     curr_price: 27599,
     past_price: 42959,
     description:
@@ -51,7 +52,7 @@ export const Data = [
   {
     id: "1dm.l.kjhnkdhh",
     imggUrl:
-      "https://t1.gstatic.com/images?q=tbn:ANd9GcQZkF4McX49NnVI9LY7VhSEMj0RXfuT8JC-EllhTLZzx8UJuia5",
+      "https://sneakernews.com/wp-content/uploads/2016/07/jordan-10-ovo-gold-matt-senna-3.jpg",
     name: "Solid Gold OVO x Air Jordan 10’s",
     curr_price: 70599,
     past_price: 85999,
@@ -61,8 +62,8 @@ export const Data = [
   {
     id: "1mdjdhh",
     imggUrl:
-      "https://pictures-kenya.jijistatic.com/41457297_MTA4MC05NjMtNjY0NmFmMjYwOQ.jpg",
-    name: "Retro Air J9",
+      "https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bmlrZSUyMHNob2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+    name: "Retro Air Flexibles",
     curr_price: 7599,
     past_price: 8999,
     description:
@@ -72,7 +73,7 @@ export const Data = [
     id: "Dior Sneakers",
     imggUrl:
       "https://cdn.shopify.com/s/files/1/1626/5391/products/Dior-B22-Black-Gold-Alligator-Trainer-Crepslocker-Front_540x.jpg?v=1675957945",
-    name: "Retro Air J9",
+    name: "Dior Sneakers",
     curr_price: 2999,
     past_price: 3899,
     description:

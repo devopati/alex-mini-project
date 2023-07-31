@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Products from "./Products";
 import "./home.css";
 
@@ -39,6 +39,9 @@ const slideImages = [
 ];
 
 function HomePage() {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
   return (
     <div className="home-main">
       <div className="home-head">
@@ -50,6 +53,7 @@ function HomePage() {
                   style={{
                     ...divStyle,
                     backgroundImage: `url(${slideImage.url})`,
+                    objectFit: "cover",
                   }}
                 >
                   <span style={spanStyle}>{slideImage.caption}</span>
